@@ -8,7 +8,14 @@
 		],
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
-		"preserveValueImports": true
+		"preserveValueImports": true,
+		"lib": [
+			"esnext",
+			"DOM"
+		],
+		"moduleResolution": "node",
+		"module": "esnext",
+		"target": "esnext"
 	},
 	"include": [
 		"../src/**/*.js",
